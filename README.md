@@ -1,28 +1,63 @@
-# Hand Detection using OpenCV & MediaPipe
+# OpenCV Projects
 
-This project features a real-time hand detection and joint-tracking program built using Python, OpenCV and MediaPipe. It captures live video from your webcam, identifies key hand landmarks, and draws skeletal connections across the joints in real time.
+**A collection of hands-on computer vision projects built with Python, OpenCV, and MediaPipe.**
 
-# 📦 What to Download & Install
+Welcome to my computer vision portfolio! This repository showcases practical projects exploring real-time visual detection using a webcam.
 
-Before running the code, make sure you have Python 3.12.10 installed on your computer.
+## Projects
 
-Install the required Python libraries by running this command in your terminal or Git Bash:
+### 1. Hand Detection
 
-```bash
-pip install opencv-python mediapipe==0.10.21
+A real-time hand detection application that detects up to two hands and displays their landmarks and connections.
+
+![Hand Detection Demo](hand-detection/assets/hand_detection_demo.gif)
+
+**Technologies:** Python, OpenCV, MediaPipe
+
+- [View Source Code](hand-detection/hand_detection.py)
+- [Project Documentation](hand-detection/)
+
+### 2. Face Detection
+
+A real-time face detection application that detects faces from a webcam feed and displays visual annotations.
+
+![Face Detection Demo](face-detection/assets/face_detection_demo.gif)
+
+**Technologies:** Python, OpenCV, MediaPipe
+
+- [View Source Code](face-detection/face_detection.py)
+- [Project Documentation](face-detection/)
+
+## Technologies
+
+- Python
+- OpenCV
+- MediaPipe
+- Git and GitHub
+
+## About
+
+I'm an engineering student interested in robotics, computer vision, and intelligent systems. I enjoy learning by building practical projects and improving my programming skills.
+
+More projects and improvements will be added as I continue learning.
+
+## Repository Structure
+
+```text
+opencv-projects/
+├── hand-detection/
+│   ├── assets/
+│   ├── hand_detection.py
+│   ├── requirements.txt
+│   └── README.md
+├── face-detection/
+│   ├── assets/
+│   ├── face_detection.py
+│   ├── requirements.txt
+│   └── README.md
+└── README.md
+```
 
 ---
 
-# Face Detection using OpenCV & MediaPipe
-
-This project features a real-time face detection program built using Python,  OpenCV and MediaPipe. It captures live video from your webcam, and draws bounding boxes around the detected faces.
-
-
-# 📦 What to Download & Install
-
-Before running the code, make sure you have Python 3.12.10 installed on your computer.
-
-Install the required Python libraries by running this command in your terminal or Git Bash:
-
-```bash
-pip install opencv-python mediapipe==0.10.21
+Thanks for visiting! ⭐
