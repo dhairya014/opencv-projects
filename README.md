@@ -61,3 +61,10 @@ opencv-projects/
 ---
 
 Thanks for visiting! ⭐
+
+## ✋ Screen Brightness Control Using Hand Gestures
+
+Control screen brightness using hand gestures with Python, OpenCV, and MediaPipe.
+
+- [View Project](screen-brightness-control/)
+- [View Demo Video](screen-brightness-control/assets/demo.mp4)
